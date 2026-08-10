@@ -15,6 +15,10 @@
 
 风景只借鉴游戏过场中常见的高饱和色彩、电影化光线、空间分层和情绪焦点；人物只借鉴反叛波普二维海报的拼贴、撕裂和高对比构成方法。不会复刻任何游戏截图、角色、界面、文字、Logo、镜头框选、构图或特定作品的视觉签名。
 
+### 致谢与非关联声明
+
+本项目在人物海报的高对比图形语言上，参考了 Atlus《女神异闻录 5》的美术方向所体现的高层次设计方法。该参考不包括任何游戏截图、角色、UI、文字、Logo、构图或其他受保护素材。本项目为非官方原创项目，与 Atlus 及其关联公司不存在合作、赞助、认可或其他关联关系。
+
 ### 使用
 
 在 Codex 中上传一张人物或风景照片，然后请求：
@@ -54,6 +58,10 @@ A Codex image-generation skill that turns an uploaded photo into an original 2D 
 ### Inspiration and boundary
 
 Landscapes borrow only general qualities often found in game cutscenes: saturated color, cinematic light, spatial layering, and an emotional focal point. Portraits borrow only rebellious pop-art poster methods such as collage, tearing, and high-contrast composition. The skill never recreates a game screenshot, character, interface, text, logo, camera crop, composition, or a particular work's visual signature.
+
+### Acknowledgment and non-affiliation
+
+The high-contrast graphic language of the portrait posters draws high-level design inspiration from the art direction of Atlus's *Persona 5*. This reference excludes game screenshots, characters, UI, text, logos, compositions, and other protected material. This is an unofficial original project and is not affiliated with, sponsored by, endorsed by, or otherwise connected to Atlus or its affiliated companies.
 
 ### Usage
 
