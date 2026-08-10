@@ -25,7 +25,14 @@ Use $photo-personalike-poster to transform this photo.
 
 默认生成一张竖版 4:5 成图。可在请求中指定比例、标题或构图偏好。
 
-### 目录
+### 示例图片来源
+
+- 风景原图由本人拍摄。
+- 人物图使用 Image 2 生成。
+
+示例仅用于展示风格边界，不得复制其中的人物、地点、服装、姿势、道具、文字或具体构图。
+
+### 内容结构
 
 ```text
 photo-personalike-poster/
@@ -34,8 +41,6 @@ photo-personalike-poster/
 ├── references/
 └── assets/examples/
 ```
-
-`assets/examples/` 中的文件用于展示风格边界。不得复制其中的人物、地点、服装、姿势、道具、文字或具体构图。
 
 ## English
 
@@ -60,7 +65,14 @@ Use $photo-personalike-poster to transform this photo.
 
 The default is one vertical 4:5 image. Specify a ratio, title, or composition preference when needed.
 
-### Structure
+### Example image sources
+
+- Original landscape photos were taken by the repository author.
+- Portrait images were generated with Image 2.
+
+Examples demonstrate visual boundaries only. Do not copy their people, places, clothing, poses, props, text, or exact compositions.
+
+### Contents
 
 ```text
 photo-personalike-poster/
@@ -69,5 +81,3 @@ photo-personalike-poster/
 ├── references/
 └── assets/examples/
 ```
-
-Files in `assets/examples/` demonstrate visual boundaries only. Do not copy their people, places, clothing, poses, props, text, or exact compositions.
