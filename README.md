@@ -36,6 +36,21 @@ Use $photo-personalike-poster to transform this photo.
 
 示例仅用于展示风格边界，不得复制其中的人物、地点、服装、姿势、道具、文字或具体构图。
 
+### 示例画廊 / Example gallery
+
+每组按“原图 → 生成结果”展示。/ Each pair shows “source → generated result.”
+
+| 示例 / Example | 原图 / Source | 生成结果 / Generated result |
+| --- | --- | --- |
+| 夜桥 / Night bridge | <img src="assets/examples/night-bridge-source.jpeg" alt="Night bridge source photo" width="300"> | <img src="assets/examples/night-bridge-landscape-cinematic.png" alt="Night bridge cinematic anime result" width="300"> |
+| 河畔夕景 / River sunset | <img src="assets/examples/river-sunset-source.jpeg" alt="River sunset source photo" width="300"> | <img src="assets/examples/river-sunset-landscape-cinematic.png" alt="River sunset cinematic anime result" width="300"> |
+| 寺院远眺 / Temple view | <img src="assets/examples/temple-view-source.jpg" alt="Temple view source photo" width="300"> | <img src="assets/examples/temple-view-landscape-cinematic.png" alt="Temple view cinematic anime result" width="300"> |
+| 鸟居通道 / Torii path | <img src="assets/examples/torii-path-source.jpg" alt="Torii path source photo" width="300"> | <img src="assets/examples/torii-path-landscape-cinematic.png" alt="Torii path cinematic anime result" width="300"> |
+| 夜间都市 / Night district | <img src="assets/examples/night-district-source.jpg" alt="Night district source photo" width="300"> | <img src="assets/examples/night-district-landscape-cinematic.png" alt="Night district cinematic anime result" width="300"> |
+| 坐姿人物 / Seated portrait | <img src="assets/examples/seated-portrait-source.png" alt="Seated portrait source image" width="300"> | <img src="assets/examples/seated-portrait-portrait-punk.png" alt="Seated portrait pop-punk result" width="300"> |
+| 靠墙人物 / Wall portrait | <img src="assets/examples/wall-portrait-source.png" alt="Wall portrait source image" width="300"> | <img src="assets/examples/wall-portrait-portrait-punk.png" alt="Wall portrait pop-punk result" width="300"> |
+| 卷发人物 / Wavy-hair portrait | <img src="assets/examples/wavy-hair-source.png" alt="Wavy-hair portrait source image" width="300"> | <img src="assets/examples/wavy-hair-portrait-punk.png" alt="Wavy-hair portrait pop-punk result" width="300"> |
+
 ### 内容结构
 
 ```text
