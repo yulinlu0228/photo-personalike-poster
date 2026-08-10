@@ -1,0 +1,4 @@
+interface:
+  display_name: "Photo Personalike Poster"
+  short_description: "Create pop-punk portraits or cinematic anime landscapes."
+  default_prompt: "Use $photo-personalike-poster to transform this photo into an original pop-punk portrait poster or cinematic anime landscape."
