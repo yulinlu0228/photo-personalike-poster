@@ -13,6 +13,16 @@
 
 人物加风景时仍只选择一个主能力：人物身份与行动是重点时使用怪盗式海报；旅行地点、建筑或环境是重点时使用电影感风景。未指定时按照片中的主要叙事焦点判断，不创建第三种混合风格。
 
+### 单图与多图路由
+
+- 单张明确风景照自动使用 **Persona 5 CG 气质的原创风景模式**；单张明确人物或主体照自动使用 **怪盗海报模式**。
+- 单张照片同时以人物和地点为重点时，生成前询问用户选择怪盗海报、Persona 5 CG 气质风景，或两种模式各生成一张。
+- 多张图片全部为同一明显类型时，每张输入自动生成一张对应模式的结果。
+- 多张图片混合人物与风景时，先询问是把多图共同作为一张成图的参考，还是每张分别生成。共同生成时还需明确最终模式，以及哪些图片承担身份参考、哪些承担环境参考；分别生成时只继续询问仍然存在人物/地点双重焦点的单张图片。
+- 不擅自合并多图、拆分合照或把同一人的不同角度当成不同人物。交付时按照输入顺序标注每张结果使用的模式。
+
+这里的“Persona 5 CG 气质”是便于用户选择模式的简称；实际提示词只使用原创的高饱和多色、电影化光线、空间分层与动画过场氛围，不复刻游戏截图、角色、UI 或具体构图。
+
 用户指定比例时优先遵从。未指定时，横向动作、全身行动、多人关系或宽幅舞台优先 `16:9`；单人近景、纵向动势或时装式亮相优先 `4:5`。风景保持原图方向和近似比例，需要横向电影化裁切时使用 `16:9`。
 
 ### 怪盗式海报的新版质量门槛
@@ -93,6 +103,16 @@ A Codex image-generation skill with two independent capabilities. They share pho
 - **Cinematic 2D landscape:** focuses on place and environment. It preserves the existing direction: viewpoint, weather, landmarks, and spatial relationships with saturated multicolor, layered light, and one emotional focus, independent of the poster route's palette and collage density.
 
 For a subject-plus-place photo, choose one primary capability. Use the masked-action poster when identity and action matter most; use the cinematic landscape when travel location, architecture, or environment matters most. Without an explicit priority, route by the photo's primary narrative focus instead of creating a third hybrid style.
+
+### Single- and multi-image routing
+
+- Automatically use the **original Persona-5-CG-inspired landscape mode** for one clearly scenic photo and **masked-action poster mode** for one clearly subject-led photo.
+- When one photo gives equal importance to a subject and a recognizable place, ask before generation whether to create a masked-action poster, a Persona-5-CG-inspired landscape, or one result in each mode.
+- When multiple photos are all one clear type, generate one corresponding result per input automatically.
+- When multiple photos mix subjects and landscapes, ask whether to use them jointly for one composite or generate one result per input. For a composite, also identify the final mode and which inputs serve identity versus environment. For separate outputs, clarify only the individual photos that still have equal subject/place focus.
+- Never merge inputs, split a group photo, or treat multiple views of one person as different identities without permission. Label every delivered result by input order and mode.
+
+“Persona-5-CG-inspired” is user-facing shorthand. Production prompts use only original saturated multicolor, cinematic light, layered space, and animated-cutscene atmosphere, never a copied screenshot, character, UI, or exact composition.
 
 Honor a user-specified aspect ratio. Otherwise prefer `16:9` for lateral action, full-body movement, groups, or a wide graphic stage, and `4:5` for a single close-up, vertical motion, or fashion-like entrance. Landscapes retain source orientation and approximate ratio, using `16:9` for a new cinematic horizontal crop.
 

@@ -1,20 +1,36 @@
 ---
 name: photo-personalike-poster
-description: "Transform an uploaded photo through one of two independent routes: a bright, clean, high-contrast original masked-action pop poster for an identity-bearing person, group, pet, animal, or object; or a colorful cinematic illustrated landscape that preserves recognizable place facts. Use for portrait-to-action-poster, original theatrical costume and pose redesign, subject-plus-place posters, pet or object entry posters, and photo-to-animated-landscape requests. Require an uploaded source photo before generation."
+description: "Transform one or many uploaded photos through two independent routes: a bright, clean, high-contrast original masked-action pop poster for an identity-bearing person, group, pet, animal, or object; or an original colorful Persona-5-CG-inspired cinematic landscape that preserves recognizable place facts without copying the game. Use for portrait-to-action-poster, original theatrical costume and pose redesign, subject-plus-place routing, pet or object entry posters, photo-to-animated-landscape requests, and multi-image batches or composites. Require uploaded source photos before generation."
 ---
 
 # Photo Personalike Poster
 
 ## Core workflow
 
-Require one uploaded photo, then internally follow `OBSERVE → ROUTE → LOCK → DISTILL → STYLIZE → COMPOSE → CHECK`. Do not expose the analysis. Generate one finished image and make at most one targeted correction when a hard requirement fails.
+Require at least one uploaded photo, then internally follow `OBSERVE → COUNT → CLASSIFY → ROUTE → LOCK → DISTILL → STYLIZE → COMPOSE → CHECK`. Do not expose the visual analysis. Generate one finished image per resolved output and make at most one targeted correction per output when a hard requirement fails.
 
 Choose exactly one primary route:
 
 - **Masked-action poster:** an identity-bearing person, group, pet, animal, or object is the focus. A human subject may receive an original dynamic pose, theatrical costume, mask, prop, and graphic stage when permitted by the preservation rules.
 - **Cinematic landscape:** the place, weather, light, and spatial experience are the focus; people or animals are incidental scene elements.
 
-For a mixed subject-and-place photo, follow the user's priority. Without one, use the poster route when identity is the intended focus and the landscape route when place recognition is the intended focus. Do not blend the two visual systems into a third mode.
+## Input-count routing
+
+For **one uploaded photo**:
+
+- If it is clearly a landscape or place photo with no identity-bearing subject, automatically use **Persona-5-CG-inspired cinematic landscape mode**.
+- If it is clearly a portrait or subject-led photo whose person, group, pet, animal, or object dominates, automatically use **masked-action poster mode**.
+- If both an identity-bearing subject and a recognizable place are important, pause before generation and ask exactly one short question: “请选择生成方式：1）怪盗海报模式；2）Persona 5 CG 气质的风景图片模式；3）两种模式各生成一张。” Generate one or two outputs according to the answer.
+
+For **multiple uploaded photos**:
+
+- If all images are clearly the same type, generate one result per input automatically: poster mode for all subject-led images or landscape mode for all place-led images.
+- If the set mixes subject-led and landscape images, pause before generation and ask whether to: “1）把这些图片共同作为一张成图的参考；2）每张图片分别生成一张。”
+- If the user chooses one composite, ask in the same clarification whether the final image should use masked-action poster mode or Persona-5-CG-inspired landscape mode, and identify which images are identity references and which are environment references. Do not mechanically include every person, object, or place detail.
+- If the user chooses separate outputs, automatically route each unambiguous input. For any individual photo that still contains both an important subject and place, ask whether that photo should use poster mode, landscape mode, or both. Do not ask again for images whose route is clear.
+- Do not silently treat multiple views of the same person as separate identities, combine unrelated people or places, split a group photo, or merge inputs into one image without permission.
+
+“Persona-5-CG-inspired” is user-facing shorthand only. In prompts, use original saturated multicolor, cinematic lighting, layered space, and animated-cutscene atmosphere; never request a direct copy of a game screenshot, protected character, UI, or exact composition.
 
 ## Preserve
 
@@ -35,7 +51,9 @@ Do not imitate a named game, character, artist, poster, UI, or screenshot. Do no
 
 ## Output
 
-Save the final image to the current project's `images/photo-personalike-poster/` directory with a short descriptive English filename. Keep only the latest approved formal result.
+Save final images to the current project's `images/photo-personalike-poster/` directory with short descriptive English filenames. Keep only the latest approved formal result for each source or composite.
+
+After delivery, enumerate every output in source order and state its route, for example: “第 1 张：怪盗海报模式；第 2 张：Persona 5 CG 气质的风景图片模式。” When one source produces both modes, label both results separately as `第 X 张-A` and `第 X 张-B`. When multiple sources produce one composite, say which source images were used as identity and environment references and name the chosen route.
 
 ## Examples
 
