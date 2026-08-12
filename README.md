@@ -8,7 +8,7 @@
 
 ### 两项独立能力
 
-- **原创怪盗式行动海报**：以人物或其他身份主体为焦点。它使用明亮、干净、高对比的二维波普图形语言，可在获得允许时把普通姿势和服装重构为有动势的原创假面行动造型。新版以可检查的“亮、净、准”为门槛：浅色与中亮区域占主导，黑色只负责轮廓和局部底座；纹理严格局部化；成人全身默认约 `1:7–1:8` 头身比。
+- **原创怪盗式行动海报**：以人物或其他身份主体为焦点。最高视觉目标是冲击力、生命力、鲜活与生动；亮度、动作、服装、撕裂结构、色彩和装饰都必须共同服务于这个目标。它使用明亮、干净、高对比的二维波普图形语言，可在获得允许时把普通姿势和服装重构为有动势的原创假面行动造型。新版以可检查的“活、亮、净、准”为门槛：浅色与中亮区域占主导，黑色只负责轮廓和局部底座；纹理严格局部化；成人全身默认约 `1:7–1:8` 头身比。
 - **电影感二维风景**：以地点和环境为焦点。它保持现有方向：保留视角、天气、地标和空间关系，使用高饱和多色、分层光线和明确情绪焦点，不受人物海报配色与拼贴密度约束。
 
 人物加风景时仍只选择一个主能力：人物身份与行动是重点时使用怪盗式海报；旅行地点、建筑或环境是重点时使用电影感风景。未指定时按照片中的主要叙事焦点判断，不创建第三种混合风格。
@@ -27,6 +27,7 @@
 
 ### 怪盗式海报的新版质量门槛
 
+- 第一眼必须读到一个清楚动作瞬间、强主形和运动方向；动作、视线、衣摆/发梢、道具、撕裂结构与色彩中至少三类共享动势。合规但静态、僵硬、模板化的结果仍判定失败。
 - 浅色与中亮区域约占 `50%–70%`，最深黑控制在约 `15%–30%`，脸部保持明亮可读。
 - 网点、颗粒、纸纹和刮痕合计不超过约 `20%`，避开脸、手和主要色块；禁止全局脏污滤镜、灰雾、裂玻璃网和随机喷溅。
 - 成人全身约为 `1:7–1:8` 头身比，头部约占全身高度 `12%–15%`；不得缩短躯干、放大头部或用失真近景肢体制造冲击力。
@@ -99,7 +100,7 @@ A Codex image-generation skill with two independent capabilities. They share pho
 
 ### Two independent capabilities
 
-- **Original masked-action poster:** focuses on a person or another identity-bearing subject. It uses a bright, clean, high-contrast 2D pop language and may redesign an ordinary pose and outfit into an original theatrical action look when permitted. The revised route enforces measurable bright, clean, and proportionate gates: light and mid-light values dominate, black acts only as contour and local backing, texture stays local, and a full-body adult defaults to about `1:7–1:8` head-to-body proportions.
+- **Original masked-action poster:** focuses on a person or another identity-bearing subject. Its highest visual objective is impact, vitality, vividness, and a palpable sense of life; brightness, action, costume, torn structure, color, and decoration must all serve that objective. It uses a bright, clean, high-contrast 2D pop language and may redesign an ordinary pose and outfit into an original theatrical action look when permitted. The revised route enforces measurable vital, bright, clean, and proportionate gates: light and mid-light values dominate, black acts only as contour and local backing, texture stays local, and a full-body adult defaults to about `1:7–1:8` head-to-body proportions.
 - **Cinematic 2D landscape:** focuses on place and environment. It preserves the existing direction: viewpoint, weather, landmarks, and spatial relationships with saturated multicolor, layered light, and one emotional focus, independent of the poster route's palette and collage density.
 
 For a subject-plus-place photo, choose one primary capability. Use the masked-action poster when identity and action matter most; use the cinematic landscape when travel location, architecture, or environment matters most. Without an explicit priority, route by the photo's primary narrative focus instead of creating a third hybrid style.
@@ -118,6 +119,7 @@ Honor a user-specified aspect ratio. Otherwise prefer `16:9` for lateral action,
 
 ### Revised masked-action quality gates
 
+- At first glance, the image must show one readable action instant, a strong lead form, and a clear motion direction. At least three classes among action, gaze, garment/hair flow, prop, torn structure, and color must share momentum. A compliant but static, stiff, or template-like result still fails.
 - Light and mid-light regions occupy about `50%–70%`; deepest black stays around `15%–30%`; the face remains bright and readable.
 - Halftone, grain, paper texture, and scratches stay below about `20%` total coverage and avoid faces, hands, and major color fields. Global grime, gray haze, cracked-glass webs, and random splashes are prohibited.
 - A full-body adult stays around `1:7–1:8`; the head occupies about `12%–15%` of total height. Do not shorten the torso, enlarge the head, or create impact through distorted foreground limbs.

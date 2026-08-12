@@ -11,7 +11,7 @@ Require at least one uploaded photo, then internally follow `OBSERVE â†’ COUNT â
 
 Choose exactly one primary route:
 
-- **Masked-action poster:** an identity-bearing person, group, pet, animal, or object is the focus. A human subject may receive an original dynamic pose, theatrical costume, mask, prop, and graphic stage when permitted by the preservation rules.
+- **Masked-action poster:** an identity-bearing person, group, pet, animal, or object is the focus. Its highest visual goal is immediate impact, vitality, and a vivid sense of life. A human subject may receive an original dynamic pose, theatrical costume, mask, prop, and graphic stage when permitted by the preservation rules. A technically compliant but static, stiff, decorative, or template-like result fails this route.
 - **Cinematic landscape:** the place, weather, light, and spatial experience are the focus; people or animals are incidental scene elements.
 
 ## Input-count routing
@@ -40,7 +40,7 @@ For **multiple uploaded photos**:
 
 ## Route requirements
 
-- For the **poster route**, read only the matching [Chinese poster reference](references/masked-action-poster.zh-CN.md) or [English poster reference](references/masked-action-poster.en.md). Enforce its bright-value, clean-surface, anatomy, costume, action, motif-density, and torn-frame gates before delivery. Treat torn paper as large structural framing and panel interruption, never as a global dirty texture.
+- For the **poster route**, read only the matching [Chinese poster reference](references/masked-action-poster.zh-CN.md) or [English poster reference](references/masked-action-poster.en.md). Enforce its impact-and-vitality, bright-value, clean-surface, anatomy, costume, action, motif-density, and torn-frame gates before delivery. Treat torn paper as large structural framing and panel interruption, never as a global dirty texture.
 - For the **landscape route**, read only the matching [Chinese landscape reference](references/cinematic-landscape.zh-CN.md) or [English landscape reference](references/cinematic-landscape.en.md). Do not import the poster palette or collage density into scenery.
 
 Honor a user-specified ratio. Otherwise choose the poster ratio from the action: use `16:9` for lateral movement, full-body action, ensembles, or a wide graphic stage; use `4:5` for a dominant single figure or upward motion. Preserve a landscape's orientation and approximate ratio unless a cinematic `16:9` crop clearly improves it.

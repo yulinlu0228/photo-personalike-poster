@@ -3,14 +3,15 @@
 ## Contents
 
 1. Input and identity lock
-2. Brightness and color
-3. Cleanliness and graphic language
-4. Torn frame and rebellious structure
-5. Anatomy and action
-6. Costume, mask, and props
-7. Composition, motif density, and aspect ratio
-8. Text and copyright boundary
-9. Generation and quality check
+2. Highest visual objective: impact and vitality
+3. Brightness and color
+4. Cleanliness and graphic language
+5. Torn frame and rebellious structure
+6. Anatomy and action
+7. Costume, mask, and props
+8. Composition, motif density, and aspect ratio
+9. Text and copyright boundary
+10. Generation and quality check
 
 ## 1. Input and identity lock
 
@@ -22,7 +23,18 @@ Preserve pose, clothing, relative placement, and hand relationships exactly only
 
 For a pet, animal, or object, preserve its species/type, proportions, silhouette, markings, pose, accessories, and functional structure. Do not add a human body, masked-action costume, or human expression by default; anthropomorphize only when the user explicitly requests it.
 
-## 2. Brightness and color
+## 2. Highest visual objective: impact and vitality
+
+The poster route's highest objective is to make the subject feel immediately impactful, vital, vivid, and alive. Brightness, action, costume, torn framing, color, and decoration are means toward this objective, not independent boxes to check. Even when every other rule passes, the image still fails if the person reads as an ID photo, a stiff model, a template collage, or a passive display.
+
+- Define one readable “action instant”: about to burst through the frame, just coming to a stop, pivoting into an entrance, opening into the wind, reaching to guide the viewer, or completing a theatrical gesture. The viewer should sense the preceding and following second rather than see only a posed still.
+- Align the body action line, gaze, garment or hair flow, prop, torn diagonals, repeated contours, and saturated shapes into one dominant motion axis. At least three element classes must reinforce one another instead of pointing randomly.
+- Give the expression, gaze, or key gesture a clear emotional presence, such as confidence, wit, challenge, joy, composure, or adventure. Never replace the person with a vacant generic anime face.
+- Use large, medium, and small rhythmic levels with asymmetric balance: one large lead form creates the first hit, medium elements carry the action, and small symbols only accelerate it. Activate negative space along the motion direction.
+- When the source pose is quiet, choose credible movement compatible with the subject's age, build, and character. Vitality comes from believable bodily intent and personality, not arbitrary extreme leaps, an oversized head, distorted perspective, decorative overload, or grime.
+- An animal or object subject also needs readable life or functional momentum through posture, orientation, tail/fur/accessory flow, repeated contours, or environmental reaction; do not force a human action onto it.
+
+## 3. Brightness and color
 
 Aim for bright, clear, high contrast—not dark, subdued, or distressed.
 
@@ -33,7 +45,7 @@ Aim for bright, clear, high contrast—not dark, subdued, or distressed.
 - Place the face in a light reading zone, or separate it from dark clothing with a crisp white rim or pale backing shape. Eyes, brows, and facial contours must not sink into black shadow.
 - Prefer complete, clean color shapes. Avoid repeatedly overlaying complementary colors, paper texture, and shadow until they become muddy gray-brown.
 
-## 3. Cleanliness and graphic language
+## 4. Cleanliness and graphic language
 
 Use complete black contours with deliberate line-weight variation, grouped hair shapes, simplified but identity-preserving features, hard cel shadows, and two to three value levels per surface. The result must read immediately as a 2D animated poster.
 
@@ -53,7 +65,7 @@ Keep it rich but clean:
 
 Use four to six related supporting motifs, such as an original mask, fictional tool, bouquet, symbolic animal, repeated silhouette, card geometry, musical notes, roses, chains, sparks, or fictional UI. Choose one lead motif, one secondary motif, and two to four rhythmic elements that share shape, direction, or color logic. Never reduce a subject poster to “figure + two color wedges + empty background.”
 
-## 4. Torn frame and rebellious structure
+## 5. Torn frame and rebellious structure
 
 Make tearing a required composition structure rather than an optional distressed-paper filter. Every poster must contain all three layers:
 
@@ -63,7 +75,7 @@ Make tearing a required composition structure rather than an optional distressed
 
 Keep torn edges large, sparse, and crisp, using solid paper layers, white fibrous rims, black ruptures, or saturated underlayers. Limited misregistration is allowed, but fine cracks, dense paper debris, gray wear, and global dirty texture cannot substitute for tearing. Never run a tear through the face. The structure must strengthen direction, hierarchy, and rebellion without reducing readability.
 
-## 5. Anatomy and action
+## 6. Anatomy and action
 
 The action may be more energetic than the source, but identity and normal anatomy take priority over extreme perspective.
 
@@ -76,7 +88,7 @@ The action may be more energetic than the source, but identity and normal anatom
 
 When the source pose is quiet and the user has not asked to preserve it, choose one compatible action: lateral sprint, abrupt turn, forward stride, rotational sweep, one-knee landing, reach toward camera, diagonal prop action, or an elegant theatrical entrance. Match the person's build, age impression, and character; do not force an extreme leap every time.
 
-## 6. Costume, mask, and props
+## 7. Costume, mask, and props
 
 Ordinary clothing may become an original masked-action / theatrical-thief look, but never an existing character's design:
 
@@ -86,7 +98,7 @@ Ordinary clothing may become an original masked-action / theatrical-thief look, 
 - Coat tails, cape, scarf, and straps may stream along the motion axis, but must not cover the face or key gesture or distort body proportions.
 - Add an original, unbranded, functionally ambiguous prop or symbol only when it genuinely strengthens the subject's character and action. Never add an existing character's signature weapon, companion, school emblem, badge, or story symbol.
 
-## 7. Composition, motif density, and aspect ratio
+## 8. Composition, motif density, and aspect ratio
 
 Honor the user's ratio first. Otherwise:
 
@@ -99,16 +111,18 @@ In addition to the figure, show at least four of these six readable hierarchy cl
 
 Do not mechanically center the figure, and do not drop a vertical half-body portrait into a wide frame. A widescreen action needs directional room ahead; a vertical composition should use upward flow and garment extension.
 
-## 8. Text and copyright boundary
+## 9. Text and copyright boundary
 
 Generate no text by default. Reproduce a user-supplied title exactly once; otherwise allow only one to three words of original English copy in Arial at a secondary hierarchy. Prohibit pseudo-text, game names, logos, trademarks, real menus, device brands, signatures, and watermarks.
 
 Reference images may inform only abstract value, rhythm, composition, and graphic density. Never reproduce a game screenshot, character, costume, mask, proprietary UI, text, camera crop, or a particular work's identifiable visual signature.
 
-## 9. Generation and quality check
+## 10. Generation and quality check
 
 Before delivery, check every gate:
 
+- **Impact gate:** at first glance, is there one strong lead form, a readable action instant, and a clear motion direction, with the subject genuinely bursting into the image rather than standing in front of decoration?
+- **Vitality gate:** do at least three classes among action, gaze, garment/hair flow, prop, torn structure, and color share momentum; does the expression or gesture reveal character; and does the image avoid an ID-photo, stiff-model, or template-collage feeling?
 - **Brightness gate:** do light and mid-light regions dominate, is the deepest black below roughly one-third, and is the face bright and readable?
 - **Cleanliness gate:** are textures local and controlled, without global grime, gray haze, cracks, or random splashes?
 - **Torn-structure gate:** is the outer frame broken in at least three places, are there two to four internal torn panels, and do the figure or decorations cross ruptures at least twice, with structural tearing rather than dirty texture?
@@ -119,6 +133,6 @@ Before delivery, check every gate:
 - **2D gate:** does the image use clear linework, hard shadows, and flat materials while avoiding semi-realistic skin, photographic depth of field, soft-light gradients, 3D rendering, and photo filters?
 - **Originality gate:** is it free of existing characters, costumes, masks, logos, pseudo-text, and proprietary UI?
 
-If any hard gate fails, make only one targeted correction and state all relevant fixes in that correction, for example: “increase the light-area share, remove global distressed texture, restore a 1:7.5 adult proportion, and reduce the foreground hand.” Never redraw repeatedly without a precise failure target.
+If any hard gate fails, make only one targeted correction and state all relevant fixes in that correction, for example: “strengthen the instant before the subject bursts through the frame; align garment flow, torn diagonals, and saturated shapes to one motion axis; increase the light-area share; remove global distressed texture; and restore a 1:7.5 adult proportion.” Never redraw repeatedly without a precise failure target.
 
 Save the final image to the current project's `images/photo-personalike-poster/` directory with a short, clear English filename. Keep only the latest formal version.

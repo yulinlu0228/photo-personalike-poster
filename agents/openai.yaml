@@ -1,4 +1,4 @@
 interface:
   display_name: "Photo Personalike Poster"
-  short_description: "Route photos into masked posters or cinematic landscapes."
-  default_prompt: "Use $photo-personalike-poster to classify these uploaded photos, clarify mixed cases once, and generate the matching masked-action poster or cinematic landscape outputs."
+  short_description: "Create vivid masked posters or cinematic landscapes."
+  default_prompt: "Use $photo-personalike-poster to classify these uploaded photos, clarify mixed cases once, and generate either a vivid, high-impact masked-action poster or the matching cinematic landscape outputs."
