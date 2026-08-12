@@ -24,7 +24,7 @@ For a mixed subject-and-place photo, follow the user's priority. Without one, us
 
 ## Route requirements
 
-- For the **poster route**, read only the matching [Chinese poster reference](references/masked-action-poster.zh-CN.md) or [English poster reference](references/masked-action-poster.en.md). Enforce its bright-value, clean-surface, anatomy, costume, and action gates before delivery.
+- For the **poster route**, read only the matching [Chinese poster reference](references/masked-action-poster.zh-CN.md) or [English poster reference](references/masked-action-poster.en.md). Enforce its bright-value, clean-surface, anatomy, costume, action, motif-density, and torn-frame gates before delivery. Treat torn paper as large structural framing and panel interruption, never as a global dirty texture.
 - For the **landscape route**, read only the matching [Chinese landscape reference](references/cinematic-landscape.zh-CN.md) or [English landscape reference](references/cinematic-landscape.en.md). Do not import the poster palette or collage density into scenery.
 
 Honor a user-specified ratio. Otherwise choose the poster ratio from the action: use `16:9` for lateral movement, full-body action, ensembles, or a wide graphic stage; use `4:5` for a dominant single figure or upward motion. Preserve a landscape's orientation and approximate ratio unless a cinematic `16:9` crop clearly improves it.
@@ -39,4 +39,4 @@ Save the final image to the current project's `images/photo-personalike-poster/`
 
 ## Examples
 
-Use `assets/examples/` only as authorized source/output pairs for visual boundaries. The current approved pairs demonstrate the cinematic-landscape route. Portrait outputs that fail the new bright, clean, proportionate poster gates are intentionally excluded until replaced by user-approved results. Never treat any example as a template or copy its identity, place, clothing, scene, pose, or composition.
+Use `assets/examples/` only as authorized source/output pairs for visual boundaries. Landscape pairs demonstrate cinematic depth, light, and multicolor; subject pairs demonstrate normal adult proportions, layered motif richness, and torn-paper framing built from large clean ruptures rather than dirty texture. Never treat an example as a template or copy its identity, place, clothing, scene, pose, motif, or composition.

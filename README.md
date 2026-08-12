@@ -20,6 +20,8 @@
 - 浅色与中亮区域约占 `50%–70%`，最深黑控制在约 `15%–30%`，脸部保持明亮可读。
 - 网点、颗粒、纸纹和刮痕合计不超过约 `20%`，避开脸、手和主要色块；禁止全局脏污滤镜、灰雾、裂玻璃网和随机喷溅。
 - 成人全身约为 `1:7–1:8` 头身比，头部约占全身高度 `12%–15%`；不得缩短躯干、放大头部或用失真近景肢体制造冲击力。
+- 外框必须至少断裂三处，使用二至四个内部撕裂面板，并让人物或装饰至少两处越过断口；撕裂是构图骨架，不是脏旧滤镜。
+- 除人物外至少组织四类视觉层级，避免“人物 + 两个色楔 + 空白背景”的单调结果。
 - 服装强调明暗交替的干净大裁片，避免全黑皮革、密集束带、战术护甲和过多金属造成的脏暗感。
 - 人物肤色保持原始明度、冷暖底色和族裔识别，不得整脸染红、洗灰或漂白。
 
@@ -42,8 +44,8 @@ Use $photo-personalike-poster to transform this photo.
 ### 示例图片来源与状态
 
 - 风景原图由仓库作者本人拍摄。
-- 当前画廊只保留已通过标准的五组风景“原图 → 生成结果”。
-- 之前三组人物结果因亮度不足、全局纹理偏脏和人体比例不稳定，已移出正式 example；对应原图已在本地保留，待按新版“亮、净、准”门槛重做并由用户确认后再加入。
+- 三张人物原图使用 OpenAI Image 2 生成。
+- 当前画廊包含五组风景与三组人物“原图 → 生成结果”。人物结果使用新版明亮度、正常头身比、丰富层级和结构化撕裂画框门槛。
 
 示例仅用于展示二维化程度、色彩、空间层级、光线与构图边界，不得复制其中的人物、地点、服装、姿势、道具、文字或具体构图。
 
@@ -56,6 +58,9 @@ Use $photo-personalike-poster to transform this photo.
 | 寺院远眺 / Temple view | <a href="assets/examples/temple-view-source.jpg"><img src="assets/readme/temple-view-source.jpg" alt="Temple view source photo" width="300"></a> | <a href="assets/examples/temple-view-landscape-cinematic.png"><img src="assets/readme/temple-view-landscape-cinematic.jpg" alt="Temple view illustrated result" width="300"></a> |
 | 鸟居通道 / Torii path | <a href="assets/examples/torii-path-source.jpg"><img src="assets/readme/torii-path-source.jpg" alt="Torii path source photo" width="300"></a> | <a href="assets/examples/torii-path-landscape-cinematic.png"><img src="assets/readme/torii-path-landscape-cinematic.jpg" alt="Torii path illustrated result" width="300"></a> |
 | 夜间都市 / Night district | <a href="assets/examples/night-district-source.jpg"><img src="assets/readme/night-district-source.jpg" alt="Night district source photo" width="300"></a> | <a href="assets/examples/night-district-landscape-cinematic.png"><img src="assets/readme/night-district-landscape-cinematic.jpg" alt="Night district illustrated result" width="300"></a> |
+| 跨步冲刺 / Extended pursuit | <a href="assets/examples/seated-portrait-source.png"><img src="assets/readme/seated-portrait-source.jpg" alt="Seated portrait source image" width="300"></a> | <a href="assets/examples/seated-portrait-subject-punk.png"><img src="assets/readme/seated-portrait-subject-punk.jpg" alt="Extended masked-action pursuit poster" width="300"></a> |
+| 玫瑰转身 / Rose pivot | <a href="assets/examples/wall-portrait-source.png"><img src="assets/readme/wall-portrait-source.jpg" alt="Wall portrait source image" width="300"></a> | <a href="assets/examples/wall-portrait-subject-punk.png"><img src="assets/readme/wall-portrait-subject-punk.jpg" alt="Rose masked-action pivot poster" width="300"></a> |
+| 花卉亮相 / Floral entrance | <a href="assets/examples/wavy-hair-source.png"><img src="assets/readme/wavy-hair-source.jpg" alt="Wavy-hair portrait source image" width="300"></a> | <a href="assets/examples/wavy-hair-subject-punk.png"><img src="assets/readme/wavy-hair-subject-punk.jpg" alt="Floral masked-action entrance poster" width="300"></a> |
 
 ### 内容结构
 
@@ -96,6 +101,8 @@ Honor a user-specified aspect ratio. Otherwise prefer `16:9` for lateral action,
 - Light and mid-light regions occupy about `50%–70%`; deepest black stays around `15%–30%`; the face remains bright and readable.
 - Halftone, grain, paper texture, and scratches stay below about `20%` total coverage and avoid faces, hands, and major color fields. Global grime, gray haze, cracked-glass webs, and random splashes are prohibited.
 - A full-body adult stays around `1:7–1:8`; the head occupies about `12%–15%` of total height. Do not shorten the torso, enlarge the head, or create impact through distorted foreground limbs.
+- Break the outer frame in at least three places, use two to four internal torn panels, and let the figure or decorations cross ruptures at least twice. Tearing is structural framing, not a dirty filter.
+- Organize at least four visual hierarchy classes beyond the figure, avoiding a monotonous “figure + two color wedges + empty background” result.
 - Costume design favors clean alternating light and dark panels, avoiding all-black leather, dense harnesses, tactical armor, and excessive metal that create a muddy dark result.
 - Skin preserves the source value, undertone, and ethnic identity. Never fill a face red, drain it gray, or lighten it toward white.
 
@@ -118,8 +125,8 @@ Without an attached photo, the Skill asks for one. Final images are saved to `im
 ### Example sources and status
 
 - Original landscape photos were taken by the repository author.
-- The current gallery retains only five landscape source/result pairs that passed review.
-- The previous three portrait results were removed from formal examples because of insufficient brightness, globally distressed texture, and unstable anatomy. Their source images remain available locally and will return only after being remade under the new bright, clean, and proportionate gates and approved by the user.
+- The three portrait source images were generated with OpenAI Image 2.
+- The current gallery contains five landscape and three portrait source/result pairs. Portrait results use the revised brightness, adult-proportion, layered-richness, and structural torn-frame gates.
 
 Examples demonstrate only boundaries for 2D stylization, color, spatial hierarchy, light, and composition. Never copy a depicted person, place, clothing, pose, prop, text, or exact composition.
 

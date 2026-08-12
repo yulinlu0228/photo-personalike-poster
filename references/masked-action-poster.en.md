@@ -5,11 +5,12 @@
 1. Input and identity lock
 2. Brightness and color
 3. Cleanliness and graphic language
-4. Anatomy and action
-5. Costume, mask, and props
-6. Composition and aspect ratio
-7. Text and copyright boundary
-8. Generation and quality check
+4. Torn frame and rebellious structure
+5. Anatomy and action
+6. Costume, mask, and props
+7. Composition, motif density, and aspect ratio
+8. Text and copyright boundary
+9. Generation and quality check
 
 ## 1. Input and identity lock
 
@@ -50,21 +51,32 @@ Keep it rich but clean:
 - Prohibit global grime filters, gray grain veils, dense ink dots, random splashes, cracked-glass webs, rust wear, and meaningless noise unless the user explicitly requests one of them.
 - Let decoration yield around the face and grow denser along the motion direction and image edges, preserving a clear focal point and readable negative space.
 
-Use three to five related supporting motifs, such as an original mask, fictional tool, bouquet, symbolic animal, repeated silhouette, card geometry, musical notes, roses, chains, sparks, or fictional UI. Choose one lead motif and make the others variations instead of piling up unrelated stickers.
+Use four to six related supporting motifs, such as an original mask, fictional tool, bouquet, symbolic animal, repeated silhouette, card geometry, musical notes, roses, chains, sparks, or fictional UI. Choose one lead motif, one secondary motif, and two to four rhythmic elements that share shape, direction, or color logic. Never reduce a subject poster to “figure + two color wedges + empty background.”
 
-## 4. Anatomy and action
+## 4. Torn frame and rebellious structure
+
+Make tearing a required composition structure rather than an optional distressed-paper filter. Every poster must contain all three layers:
+
+1. **Broken outer frame:** let two to four large jagged paper edges, black ruptures, or irregular white borders cut inward from the canvas, breaking the rectangular boundary in at least three places.
+2. **Internal torn panels:** interlock, overlap, or misregister two to four irregular paper or color panels. At least one torn diagonal must travel across roughly one-third of the frame and collide with or reinforce the action axis.
+3. **Figure boundary breaks:** let hair, coat, arm, leg, prop, or flowers cross a panel rupture or escape a local frame in at least two places, creating the feeling of entering by tearing through the image.
+
+Keep torn edges large, sparse, and crisp, using solid paper layers, white fibrous rims, black ruptures, or saturated underlayers. Limited misregistration is allowed, but fine cracks, dense paper debris, gray wear, and global dirty texture cannot substitute for tearing. Never run a tear through the face. The structure must strengthen direction, hierarchy, and rebellion without reducing readability.
+
+## 5. Anatomy and action
 
 The action may be more energetic than the source, but identity and normal anatomy take priority over extreme perspective.
 
-- For a full-body adult, default to a head-to-body ratio of about `1:7–1:8`. Even mild animation stylization must not go below about `1:6.5` unless the user asks for chibi proportions. The head occupies about `12%–15%` of total height.
+- For a full-body adult, default to a head-to-body ratio of about `1:7–1:8`. Even mild animation stylization must not go below about `1:6.5` unless the user asks for chibi proportions. The head occupies about `12%–15%` of total height. Validate the complete uncropped, unforeshortened skeleton before arranging coat tails, tucked legs, and frame crops.
 - Preserve source shoulder width, torso length, waist-to-hip relationship, and limb build. Adult shoulders are commonly about `2–2.5` head widths. Do not shorten the chest and abdomen, flatten the pelvis, or turn an adult into a big-headed short body.
 - Palm length should be close to the face length from chin to hairline. Fingers, wrist, elbow, knee, and ankle connections must remain clear. Prohibit extra fingers, fused hands, and broken joints.
 - A foreground limb may be enlarged by perspective, but a near hand, foot, or prop must not exceed about `1.5` times the face scale or cover most of the face. Never enlarge the head to create impact.
+- Judge perceived proportions, not only mathematical ratios. If tucked legs, a crouch, high-angle view, wide collar, mask, or tight crop makes the head look oversized, reduce the head's visual share, lengthen the visible torso and legs, or choose a more extended pose. The head together with hair and mask must not become the largest isolated shape in the composition.
 - Establish a plausible action line, center of gravity, and joint chain before adding coat tails, panels, and speed forms. Full-body action needs a credible planted foot or an explicit airborne logic.
 
 When the source pose is quiet and the user has not asked to preserve it, choose one compatible action: lateral sprint, abrupt turn, forward stride, rotational sweep, one-knee landing, reach toward camera, diagonal prop action, or an elegant theatrical entrance. Match the person's build, age impression, and character; do not force an extreme leap every time.
 
-## 5. Costume, mask, and props
+## 6. Costume, mask, and props
 
 Ordinary clothing may become an original masked-action / theatrical-thief look, but never an existing character's design:
 
@@ -74,7 +86,7 @@ Ordinary clothing may become an original masked-action / theatrical-thief look, 
 - Coat tails, cape, scarf, and straps may stream along the motion axis, but must not cover the face or key gesture or distort body proportions.
 - Add an original, unbranded, functionally ambiguous prop or symbol only when it genuinely strengthens the subject's character and action. Never add an existing character's signature weapon, companion, school emblem, badge, or story symbol.
 
-## 6. Composition and aspect ratio
+## 7. Composition, motif density, and aspect ratio
 
 Honor the user's ratio first. Otherwise:
 
@@ -83,21 +95,25 @@ Honor the user's ratio first. Otherwise:
 
 Give the subject roughly `55%–75%` of the visual weight. Establish one dominant motion axis, then use weaker counter-wedges or panels for tension. At first glance, show at least three strong signals: off-center crop, foreground overlap, readable action, oversized graphic/flower/prop, repeated silhouette, fractured paneling, or a collision between bright negative space and a deep base.
 
+In addition to the figure, show at least four of these six readable hierarchy classes: (1) broken outer frame, (2) internal torn panels, (3) one oversized lead motif, (4) repeated or misregistered figure silhouette, (5) a medium-scale decorative field, and (6) small halftone/UI/speed symbols. Richness must come from scale contrast, overlap, and directional relationships rather than evenly sprinkling details. Do not leave more than roughly one quarter of the frame as functionless emptiness; if a large negative-space field remains, activate it with contour, torn edge, or directional line.
+
 Do not mechanically center the figure, and do not drop a vertical half-body portrait into a wide frame. A widescreen action needs directional room ahead; a vertical composition should use upward flow and garment extension.
 
-## 7. Text and copyright boundary
+## 8. Text and copyright boundary
 
 Generate no text by default. Reproduce a user-supplied title exactly once; otherwise allow only one to three words of original English copy in Arial at a secondary hierarchy. Prohibit pseudo-text, game names, logos, trademarks, real menus, device brands, signatures, and watermarks.
 
 Reference images may inform only abstract value, rhythm, composition, and graphic density. Never reproduce a game screenshot, character, costume, mask, proprietary UI, text, camera crop, or a particular work's identifiable visual signature.
 
-## 8. Generation and quality check
+## 9. Generation and quality check
 
 Before delivery, check every gate:
 
 - **Brightness gate:** do light and mid-light regions dominate, is the deepest black below roughly one-third, and is the face bright and readable?
 - **Cleanliness gate:** are textures local and controlled, without global grime, gray haze, cracks, or random splashes?
-- **Proportion gate:** is a full-body adult about `1:7–1:8`, with credible shoulders, torso, hands, feet, and foreground perspective, and no enlarged head?
+- **Torn-structure gate:** is the outer frame broken in at least three places, are there two to four internal torn panels, and do the figure or decorations cross ruptures at least twice, with structural tearing rather than dirty texture?
+- **Richness gate:** are at least four hierarchy classes present beyond the figure, with lead and secondary motifs, scale contrast, and directional relationships rather than empty monotony or random stickers?
+- **Proportion gate:** is a full-body adult about `1:7–1:8`, with credible shoulders, torso, hands, feet, and foreground perspective, and do tucked legs, wide collar, mask, or crop avoid making the head look oversized?
 - **Identity gate:** are subject count, face shape, age, hair, skin tendency, and protected traits preserved?
 - **Action gate:** are balance, joints, fingers, and direction clear, and does the costume serve the pose?
 - **2D gate:** does the image use clear linework, hard shadows, and flat materials while avoiding semi-realistic skin, photographic depth of field, soft-light gradients, 3D rendering, and photo filters?
