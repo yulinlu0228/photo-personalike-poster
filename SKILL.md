@@ -1,6 +1,6 @@
 ---
 name: photo-personalike-poster
-description: Transform an uploaded human, pet, animal, object, mixed subject-and-place, or landscape photo into either an original rebellious pop-punk 2D subject poster or a colorful cinematic illustrated scene. Use for identity-preserving portrait and pet posters, stylized object-entry posters, photo-to-illustration landscapes, and photos where a subject and environment both matter. Require an uploaded source photo before generation.
+description: Transform an uploaded human, pet, animal, object, mixed subject-and-place, or landscape photo into either an original high-energy rebellious pop-punk 2D subject poster or a colorful cinematic illustrated scene. Use for identity-preserving portrait and pet posters, stylized object-entry posters, photo-to-illustration landscapes, and photos where a subject and environment both matter. Require an uploaded source photo before generation.
 ---
 
 # Photo Personalike Poster
@@ -29,7 +29,7 @@ Internally follow `OBSERVE → ROUTE → PRESERVE → DISTILL → STYLIZE → CO
 
 ## Mode rules
 
-- **Subject — Pop-punk 2D entry poster:** use scarlet as the dominant impact color, ultramarine as a limited depth accent, plus black, charcoal, gray, and cool white. Build youthful motion with fractured diagonal panels, torn edges, thick black dividers, halftone, offset repeats, and directional wedges. Optional original masks, fictional props, flowers, symbolic animals, silhouettes, short English copy, and fictional UI may support the subject without obscuring or replacing it. Do not force human anatomy, clothing, or expressions onto an animal unless the user asks for anthropomorphism.
+- **Subject — High-energy pop-punk 2D entry poster:** make the result theatrical, youthful, and immediately kinetic rather than merely decorative. Establish one dominant motion axis; enlarge and crop the subject boldly; use foreshortened foreground overlap, asymmetric weight, repeated silhouettes, fractured panels, torn edges, thick black dividers, halftone, and counter-directional shapes. Default to a scarlet/black/white graphic anchor, then add two or three coordinated supporting hues when they improve identity, mood, or depth. Preserve recognizable human skin hue and value in two to three hard-edged cel-shaded tones; never force skin into grayscale, pale white, or solid red. Use three to seven coherent supporting motifs—such as original masks, fictional props, flowers, symbolic animals, silhouettes, signal shapes, short English copy, or fictional UI—at varied scales without obscuring the face or identity anchors. Do not force human anatomy, clothing, or expressions onto an animal unless the user asks for anthropomorphism.
 - **Landscape — Cinematic illustrated scene:** use a scene-appropriate harmonious multicolor palette, clear illustrated linework, simplified value shapes, layered foreground/midground/background, atmospheric light, and one strong visual focus. Do not impose the subject mode's limited palette on sky, water, foliage, light, or architecture.
 
 Honor a user-specified ratio. Otherwise use vertical `4:5` for a subject poster; for a landscape, preserve the source orientation and approximate aspect ratio, using `16:9` only when a new horizontal cinematic crop is needed. Mixed scenes follow the selected mode.
@@ -53,4 +53,4 @@ Save the final image in the current project's `images/photo-personalike-poster/`
 
 ## Examples
 
-`assets/examples/` contains authorized source images and approved original outputs. Use them only to understand visual boundaries: 2D stylization, color logic, hierarchy, shadows, and composition strength. Never copy a depicted identity, place, clothing, pose, prop, text, or exact composition.
+`assets/examples/` contains authorized source images and approved original outputs. Use them only to understand visual boundaries: 2D stylization, color logic, hierarchy, and shadows. For subject mode, treat the current outputs as a minimum identity/cel-shading baseline, not as a ceiling for motion, decoration density, color range, or theatrical impact; the written high-tension rules take priority. Never copy a depicted identity, place, clothing, pose, prop, text, or exact composition.

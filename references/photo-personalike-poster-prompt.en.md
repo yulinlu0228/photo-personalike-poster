@@ -53,13 +53,26 @@ Reference images are for analyzing style boundaries only and must not become out
 ### 4.2 Visual grammar
 
 - Use complete black contours with clear line-weight variation, grouped block shapes for hair or fur, simplified but identity-preserving facial features, hard-edged cel shadows, and two to three value blocks per surface.
-- Let scarlet carry the primary impact. Use saturated ultramarine only as a small spatial-depth accent; use black, charcoal, neutral gray, and cool white for the rest. Map human skin to cool-white and neutral-gray animated value blocks rather than red. Remap an animal's natural markings into grayscale while preserving their placement.
-- Let the subject occupy the primary visual area. Use tilted, fractured, asymmetric panels, a large black base, scarlet wedges, and a few ultramarine depth shapes to establish one movement direction.
-- Use ripped-paper edges, thick black separators, halftone, repeated contours, misregistered overprints, local white negative space, and a few cut-paper planes. Align pose, clothing or fur flow, graphic wedges, and background rhythm toward one motion direction; avoid a static centered ID-photo composition.
-- Optionally add zero to three original supporting elements: an abstract mask, fictional weapon or tool, flower arrangement, symbolic animal, character silhouette, signal graphic, or fictional UI. Do not cover a face, eyes, identifying animal markings, gesture, or key object. Supporting elements must not replace the subject or imply an existing character. For an animal subject, prefer non-contact graphics, foliage, lunar shapes, paw marks, speed forms, or environmental silhouettes.
+- Do not force human skin into black, gray, and white. Build two to three hard-edged animated skin tones from the person's actual skin tendency, preserving value range, warm/cool undertone, and identity-bearing ethnic traits while allowing stronger saturation or temperature contrast. Light skin may use ivory, peach, pale apricot, and warm-gray shadow; medium skin may use honey, ochre-apricot, copper-brown, and warm-brown shadow; dark skin may use deep copper, red-brown, cocoa, and violet-brown shadow. Never lighten dark skin into light skin, drain any skin into lifeless gray, or fill a face with solid red. Separate highlight, local color, and shadow as clear shapes rather than realistic soft gradients.
+- Default to a scarlet, black, and white graphic anchor, but do not enforce a strict limited palette. Choose two or three coordinated supporting hues from ultramarine, cobalt, cyan, magenta, pink, violet, cream, limited gold, or green according to clothing, personality, and scene. Use one dominant color, two or three supporting colors, and neutrals; every support color must clarify depth, identity, or mood rather than forming an evenly distributed rainbow.
+- Give the subject roughly `55%–75%` of the visual weight. Boldly crop hair, clothing edges, or peripheral limbs when useful, but keep identity anchors intact. Avoid a centered standing or ID-photo layout; prefer off-center placement, a tilted horizon, foreshortening, local perspective enlargement, and foreground overlap. Preserve the source pose and joint relationships while amplifying its existing action direction, head tilt, gesture tension, clothing sweep, and hair flow. Do not replace it with an unrelated pose without permission.
+- Establish one dominant motion axis. Align body direction, hair or clothing flow, a weapon or bouquet, sliced panels, and speed forms with it, then use a weaker counter-directional family to create tension. At first glance, show at least three strong signals together: bold off-center crop, obvious perspective or foreground overlap, an oversized graphic or prop, repeated/misregistered silhouette, torn paneling, a dense decorative field, or a collision of strong negative space.
+- Organize the background into three levels: (1) a large black or saturated base shape for silhouette contrast; (2) medium fractured panels, rays, checker patterns, comic bursts, flower clusters, silhouettes, or scene symbols for rhythm; and (3) small halftone, registration offsets, paper texture, icons, and UI marks for detail. Vary scale and density, keep a clear reading zone around the face, and never give every element the same size or contrast.
+- Use three to seven related original supporting motifs rather than restricting decoration too severely. Options include an abstract mask, fictional weapon or tool, bouquet, symbolic animal, character silhouette, card-like geometry, musical notes, stars, roses, chains, sparks, signal graphics, or fictional UI. Choose one primary motif and vary the others around it; do not pile up unrelated assets. Never cover the face, eyes, identifying animal markings, key gesture, or identity-bearing object, and never imply an existing character. For an animal subject, prefer non-contact graphics, foliage, lunar shapes, paw marks, speed forms, or environmental silhouettes.
 - Original English copy of one to three words or graphic UI may be included. Use Arial and keep text secondary. Reproduce a user-supplied title exactly once. Prohibit game names, trademarks, logos, real menus, signatures, watermarks, brand copy, and pseudo-text.
 
-### 4.3 Avoid and correction
+### 4.3 Tension threshold and composition choice
+
+Choose one primary composition from the source pose instead of applying the same template every time:
+
+- **Burst into frame:** for an arm, leg, bouquet, or prop extending toward the camera; use foreshortening and foreground boundary breaks.
+- **Rotational sweep:** for a side pose, turn, long hair, or loose clothing; form a vortex with hair, fabric, panels, and background arcs.
+- **Diagonal intrusion:** for a seated, leaning, or restrained upper-body pose; keep the joint relationships while increasing energy through tilted crop, local enlargement, repeated silhouette, and counter-wedges.
+- **Stage spotlight:** for composed or restrained poses; surround the subject with oversized flowers, masks, symbols, or silhouettes, using a strong black base, luminous skin, and saturated edge colors for theatrical contrast.
+
+The result must go beyond “half-body figure on a red-and-black background.” If the action remains stiff, the subject is too small, the background feels empty, or decoration is evenly scattered, use the single targeted correction to strengthen subject scale, motion axis, foreground overlap, and background hierarchy together rather than adding random stickers.
+
+### 4.4 Avoid and correction
 
 Avoid pores, realistic skin, individual photorealistic hairs or fur, photographic depth of field, lens flare, soft realistic gradients, oil-paint marks, plastic-figure texture, 3D rendering, and direct photo filters. If the first result remains visibly realistic, make only one targeted correction focused on linework, simplified human or animal features, hard-edged shadows, and flat materials.
 
@@ -101,11 +114,11 @@ Before delivery, check:
 - Are the animal's ears, muzzle, markings, tail, pose, and accessories correct, without accidental anthropomorphism?
 - Are the object's silhouette, proportions, and functional structure correct?
 - Does the landscape preserve place facts, depth, light, and focus while removing brands and copyrighted characters?
-- Is the subject poster scarlet-led with restrained ultramarine, and is skin cool-white/gray rather than red? Is the landscape naturally rich and harmonious?
+- Does the subject poster have a clear motion axis, a sufficiently large subject, at least three strong tension signals, and layered decoration? Does the palette have hierarchy, and does skin preserve the source person's value and undertone without being grayed, lightened, or filled red? Is the landscape naturally rich and harmonious?
 - Is the result clearly two-dimensional and free of logos, trademarks, watermarks, pseudo-text, protected characters, and unauthorized added real people?
 
 If the result has obvious realism, a structural error, or a mode-specific color failure, make only one targeted correction. Do not redraw repeatedly without a precise failure target.
 
 ## 8. Example boundary
 
-Pair examples as `<subject>-source.*` with `<subject>-subject-punk.png` or `<subject>-landscape-cinematic.png`. Examples demonstrate only the degree of 2D stylization, color logic, subject hierarchy, shadows, and composition strength. Never copy their person, animal, place, clothing, pose, prop, text, or exact composition.
+Pair examples as `<subject>-source.*` with `<subject>-subject-punk.png` or `<subject>-landscape-cinematic.png`. Examples demonstrate only the degree of 2D stylization, color logic, subject hierarchy, and shadows. Never copy their person, animal, place, clothing, pose, prop, text, or exact composition. Treat the current subject outputs as a minimum identity-preservation and cel-shading baseline, not as a ceiling for action, decorative density, color range, or theatrical tension; prioritize this file's written high-tension rules for subject generation.

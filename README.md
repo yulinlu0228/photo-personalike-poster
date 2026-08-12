@@ -8,7 +8,7 @@
 
 ### 两种视觉模式与混合路由
 
-- **主体 / 波普朋克二维海报**：适用于人物、多人、宠物、动物和物件。保留身份、数量、姿势、外形、服装或斑纹等关键特征；以猩红为主要冲击色、少量群青增加深度，通过倾斜断裂面板、撕纸边、粗黑分隔、网点和错位轮廓形成反叛、青春的登场动势。
+- **主体 / 高张力波普朋克二维海报**：适用于人物、多人、宠物、动物和物件。保留身份、数量、姿势、外形、服装或斑纹等关键特征；使用大胆偏心裁切、近大远小、前景越界、重复剪影、断裂面板和三层装饰场形成更浮夸、更青春的登场动势。默认以猩红、黑、白建立图形锚点，同时允许两至三种协调辅助色。人物肤色保留原本的明度与冷暖倾向，并转化为两至三级硬边动画色块，不再强制灰阶。
 - **风景 / 电影感二维场景**：适用于地点和环境。保留视角、天气、地标和空间关系，采用高饱和多色、分层光线与明确情绪焦点，不受主体模式限色约束。
 - **主体 + 风景**：用户指定优先级时遵从用户；未指定时默认采用主体海报模式，并将三至五个地点特征保留为背景线索。若用户强调旅行地点或建筑，则使用风景模式，同时保持人物或宠物的数量、姿态和识别特征。
 
@@ -37,7 +37,7 @@ Use $photo-personalike-poster to transform this photo.
 - 风景原图由本人拍摄。
 - 人物原图使用 OpenAI Image 2 生成。
 
-示例仅用于展示二维化程度、色彩逻辑、主体层级、阴影与构图强度，不得复制其中的人物、地点、服装、姿势、道具、文字或具体构图。下方使用轻量预览图；点击图片可查看对应完整示例。
+示例仅用于展示二维化程度、色彩逻辑、主体层级与阴影，不得复制其中的人物、地点、服装、姿势、道具、文字或具体构图。当前三张人物成图属于上一版基线，只用于说明身份保持和赛璐璐程度；新版人物海报以更高的动作张力、装饰密度、色彩活力和戏剧性规则为准，待新成图确认后替换。下方使用轻量预览图；点击图片可查看对应完整示例。
 
 ### 示例画廊 / Example gallery
 
@@ -79,7 +79,7 @@ A Codex image-generation skill that turns an uploaded person, pet, animal, objec
 
 ### Two visual modes and mixed routing
 
-- **Subject / Pop-punk 2D poster:** for people, groups, pets, animals, and objects. It preserves identity, count, pose, shape, clothing, markings, and other defining traits. Scarlet provides the main impact, restrained ultramarine adds depth, and fractured diagonal panels, torn edges, heavy black separators, halftone, and offset contours create rebellious youthful motion.
+- **Subject / High-tension pop-punk 2D poster:** for people, groups, pets, animals, and objects. It preserves identity, count, pose, shape, clothing, markings, and other defining traits while using bold off-center crops, foreshortening, foreground boundary breaks, repeated silhouettes, fractured panels, and three-level decorative fields for more theatrical youthful energy. Scarlet, black, and white form the default graphic anchor, with two or three coordinated support hues when useful. Human skin preserves the source person's value and undertone in two to three hard-edged animated tones instead of being forced into grayscale.
 - **Landscape / Cinematic illustrated scene:** for places and environments. It preserves viewpoint, weather, landmarks, and spatial relationships while using saturated multicolor, layered light, and one emotional focus without the subject mode's palette restriction.
 - **Subject + landscape:** follow an explicit user priority. Otherwise default to subject-poster treatment and preserve three to five defining place facts as background cues. If the user emphasizes a travel destination or architecture, use landscape mode while retaining the people or pets' count, pose, and identifying traits.
 
@@ -108,7 +108,7 @@ Without an attached photo, the Skill asks for one instead of inventing an identi
 - Original landscape photos were taken by the repository author.
 - Portrait source images were generated with OpenAI Image 2.
 
-Examples demonstrate only the degree of 2D stylization, color logic, subject hierarchy, shadows, and composition strength. Do not copy their people, places, clothing, poses, props, text, or exact compositions. The gallery uses lightweight previews; click an image to open its full example.
+Examples demonstrate only the degree of 2D stylization, color logic, subject hierarchy, and shadows. Do not copy their people, places, clothing, poses, props, text, or exact compositions. The three current subject results are previous-version baselines for identity preservation and cel shading; the revised subject mode now targets stronger action, decorative density, color energy, and theatrical impact, and these examples will be replaced after new results are approved. The gallery uses lightweight previews; click an image to open its full example.
 
 ### Contents
 
