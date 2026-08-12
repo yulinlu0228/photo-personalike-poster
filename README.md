@@ -4,23 +4,30 @@
 
 ## 中文
 
-一个 Codex 图片生成 Skill：将上传的人物、宠物、动物、物件、混合场景或风景照片转换成原创二维插画。
+一个包含两项独立能力的 Codex 图片生成 Skill。两项能力共享照片观察、身份/地点锁定、二维化和版权边界，但使用不同的视觉 reference，不混成一套风格。
 
-### 两种视觉模式与混合路由
+### 两项独立能力
 
-- **主体 / 高张力波普朋克二维海报**：适用于人物、多人、宠物、动物和物件。严格保留人物身份、年龄感、脸型、发型、族裔特征与身体比例；普通静态拍照姿势和无身份意义的日常服装可以重构为更有活力的动作及原创怪盗式行动服。使用大胆偏心裁切、近大远小、前景越界、重复剪影、断裂面板和三层装饰场形成浮夸、青春的登场动势。默认以猩红、黑、白建立图形锚点，同时允许两至三种协调辅助色；人物肤色保留原本明度与冷暖倾向。
-- **风景 / 电影感二维场景**：适用于地点和环境。保留视角、天气、地标和空间关系，采用高饱和多色、分层光线与明确情绪焦点，不受主体模式限色约束。
-- **主体 + 风景**：用户指定优先级时遵从用户；未指定时默认采用主体海报模式，并将三至五个地点特征保留为背景线索。若用户强调旅行地点或建筑，则使用风景模式，同时保持人物或宠物的数量、姿态和识别特征。
+- **原创怪盗式行动海报**：以人物或其他身份主体为焦点。它使用明亮、干净、高对比的二维波普图形语言，可在获得允许时把普通姿势和服装重构为有动势的原创假面行动造型。新版以可检查的“亮、净、准”为门槛：浅色与中亮区域占主导，黑色只负责轮廓和局部底座；纹理严格局部化；成人全身默认约 `1:7–1:8` 头身比。
+- **电影感二维风景**：以地点和环境为焦点。它保持现有方向：保留视角、天气、地标和空间关系，使用高饱和多色、分层光线和明确情绪焦点，不受人物海报配色与拼贴密度约束。
 
-用户指定比例时优先遵从。未指定时，主体海报按构图选择：横向动作、全身追逐、多人或宽幅装饰优先 `16:9`，单人近景、纵向跃动或时装式登场优先 `4:5`；风景保持原图方向和近似比例，需要横向电影化裁切时使用 `16:9`。
+人物加风景时仍只选择一个主能力：人物身份与行动是重点时使用怪盗式海报；旅行地点、建筑或环境是重点时使用电影感风景。未指定时按照片中的主要叙事焦点判断，不创建第三种混合风格。
+
+用户指定比例时优先遵从。未指定时，横向动作、全身行动、多人关系或宽幅舞台优先 `16:9`；单人近景、纵向动势或时装式亮相优先 `4:5`。风景保持原图方向和近似比例，需要横向电影化裁切时使用 `16:9`。
+
+### 怪盗式海报的新版质量门槛
+
+- 浅色与中亮区域约占 `50%–70%`，最深黑控制在约 `15%–30%`，脸部保持明亮可读。
+- 网点、颗粒、纸纹和刮痕合计不超过约 `20%`，避开脸、手和主要色块；禁止全局脏污滤镜、灰雾、裂玻璃网和随机喷溅。
+- 成人全身约为 `1:7–1:8` 头身比，头部约占全身高度 `12%–15%`；不得缩短躯干、放大头部或用失真近景肢体制造冲击力。
+- 服装强调明暗交替的干净大裁片，避免全黑皮革、密集束带、战术护甲和过多金属造成的脏暗感。
+- 人物肤色保持原始明度、冷暖底色和族裔识别，不得整脸染红、洗灰或漂白。
 
 ### 风格借鉴与边界
 
-风景只借鉴动画电影和游戏过场中常见的高饱和色彩、电影化光线、空间分层和情绪焦点；主体海报只借鉴反叛波普二维海报的拼贴、撕裂与高对比方法。Skill 不复刻任何游戏截图、角色、专有界面、文字、Logo、镜头框选、构图或具体作品的视觉签名。
+风景只借鉴动画电影和游戏过场中常见的高饱和色彩、电影化光线、空间分层和情绪焦点；人物海报只借鉴反叛波普二维海报的高层次方法，如不对称分区、明暗对撞、图形节奏和局部拼贴。Skill 不复刻任何游戏截图、角色、服装、面具、专有界面、文字、Logo、镜头框选、构图或具体作品的视觉签名。
 
-### 致谢与非关联声明
-
-本项目在主体海报的高对比图形语言上，参考了 Atlus《女神异闻录 5》的美术方向所体现的高层次设计方法。该参考不包括任何游戏截图、角色、UI、文字、Logo、构图或其他受保护素材。本项目为非官方原创项目，与 Atlus 及其关联公司不存在合作、赞助、认可或其他关联关系。
+本项目在人物海报的高对比图形方向上参考了 Atlus《女神异闻录 5》所体现的抽象设计方法，但不包含任何游戏素材。本项目为非官方原创项目，与 Atlus 及其关联公司不存在合作、赞助、认可或其他关联关系。
 
 ### 使用
 
@@ -30,18 +37,17 @@
 Use $photo-personalike-poster to transform this photo.
 ```
 
-没有照片时，Skill 会先要求上传，不会凭空创建身份主体。最终图片保存到当前项目的 `images/photo-personalike-poster/`，只保留最新正式版本。
+没有照片时，Skill 会先要求上传。最终图片保存到当前项目的 `images/photo-personalike-poster/`，只保留最新正式版本。
 
-### 示例图片来源
+### 示例图片来源与状态
 
-- 风景原图由本人拍摄。
-- 人物原图使用 OpenAI Image 2 生成。
+- 风景原图由仓库作者本人拍摄。
+- 当前画廊只保留已通过标准的五组风景“原图 → 生成结果”。
+- 之前三组人物结果因亮度不足、全局纹理偏脏和人体比例不稳定，已移出正式 example；对应原图已在本地保留，待按新版“亮、净、准”门槛重做并由用户确认后再加入。
 
-示例仅用于展示二维化程度、色彩逻辑、主体层级与阴影，不得复制其中的人物、地点、服装、姿势、道具、文字或具体构图。三张人物示例展示了 `16:9` 宽银幕动作重构、原创怪盗式行动服、自然动画肤色与分层装饰，但它们不是固定模板。下方使用轻量预览图；点击图片可查看对应完整示例。
+示例仅用于展示二维化程度、色彩、空间层级、光线与构图边界，不得复制其中的人物、地点、服装、姿势、道具、文字或具体构图。
 
 ### 示例画廊 / Example gallery
-
-每组按“原图 → 生成结果”展示。/ Each pair shows “source → generated result.”
 
 | 示例 / Example | 原图 / Source | 生成结果 / Generated result |
 | --- | --- | --- |
@@ -50,9 +56,6 @@ Use $photo-personalike-poster to transform this photo.
 | 寺院远眺 / Temple view | <a href="assets/examples/temple-view-source.jpg"><img src="assets/readme/temple-view-source.jpg" alt="Temple view source photo" width="300"></a> | <a href="assets/examples/temple-view-landscape-cinematic.png"><img src="assets/readme/temple-view-landscape-cinematic.jpg" alt="Temple view illustrated result" width="300"></a> |
 | 鸟居通道 / Torii path | <a href="assets/examples/torii-path-source.jpg"><img src="assets/readme/torii-path-source.jpg" alt="Torii path source photo" width="300"></a> | <a href="assets/examples/torii-path-landscape-cinematic.png"><img src="assets/readme/torii-path-landscape-cinematic.jpg" alt="Torii path illustrated result" width="300"></a> |
 | 夜间都市 / Night district | <a href="assets/examples/night-district-source.jpg"><img src="assets/readme/night-district-source.jpg" alt="Night district source photo" width="300"></a> | <a href="assets/examples/night-district-landscape-cinematic.png"><img src="assets/readme/night-district-landscape-cinematic.jpg" alt="Night district illustrated result" width="300"></a> |
-| 坐姿人物 / Seated portrait | <a href="assets/examples/seated-portrait-source.png"><img src="assets/readme/seated-portrait-source.jpg" alt="Seated portrait source image" width="300"></a> | <a href="assets/examples/seated-portrait-subject-punk.png"><img src="assets/readme/seated-portrait-subject-punk.jpg" alt="Seated subject pop-punk result" width="300"></a> |
-| 靠墙人物 / Wall portrait | <a href="assets/examples/wall-portrait-source.png"><img src="assets/readme/wall-portrait-source.jpg" alt="Wall portrait source image" width="300"></a> | <a href="assets/examples/wall-portrait-subject-punk.png"><img src="assets/readme/wall-portrait-subject-punk.jpg" alt="Wall subject pop-punk result" width="300"></a> |
-| 卷发人物 / Wavy-hair portrait | <a href="assets/examples/wavy-hair-source.png"><img src="assets/readme/wavy-hair-source.jpg" alt="Wavy-hair portrait source image" width="300"></a> | <a href="assets/examples/wavy-hair-subject-punk.png"><img src="assets/readme/wavy-hair-subject-punk.jpg" alt="Wavy-hair subject pop-punk result" width="300"></a> |
 
 ### 内容结构
 
@@ -61,8 +64,10 @@ photo-personalike-poster/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── references/
-│   ├── photo-personalike-poster-prompt.zh-CN.md
-│   └── photo-personalike-poster-prompt.en.md
+│   ├── masked-action-poster.zh-CN.md
+│   ├── masked-action-poster.en.md
+│   ├── cinematic-landscape.zh-CN.md
+│   └── cinematic-landscape.en.md
 ├── assets/
 │   ├── examples/
 │   └── readme/
@@ -75,23 +80,30 @@ photo-personalike-poster/
 
 ## English
 
-A Codex image-generation skill that turns an uploaded person, pet, animal, object, mixed subject-and-place, or landscape photo into an original 2D illustration.
+A Codex image-generation skill with two independent capabilities. They share photo observation, identity/place locking, 2D conversion, and copyright boundaries, but use separate visual references rather than one blended style.
 
-### Two visual modes and mixed routing
+### Two independent capabilities
 
-- **Subject / High-tension pop-punk 2D poster:** for people, groups, pets, animals, and objects. It strictly preserves human identity, age impression, face shape, hairstyle, ethnic traits, and body proportions, while ordinary static photo poses and non-identifying daily clothing may be redesigned into more active motion and an original masked-action costume. Bold off-center crops, foreshortening, foreground boundary breaks, repeated silhouettes, fractured panels, and three-level decorative fields create theatrical youthful energy. Scarlet, black, and white form the default graphic anchor with coordinated support hues, while skin preserves the source person's value and undertone.
-- **Landscape / Cinematic illustrated scene:** for places and environments. It preserves viewpoint, weather, landmarks, and spatial relationships while using saturated multicolor, layered light, and one emotional focus without the subject mode's palette restriction.
-- **Subject + landscape:** follow an explicit user priority. Otherwise default to subject-poster treatment and preserve three to five defining place facts as background cues. If the user emphasizes a travel destination or architecture, use landscape mode while retaining the people or pets' count, pose, and identifying traits.
+- **Original masked-action poster:** focuses on a person or another identity-bearing subject. It uses a bright, clean, high-contrast 2D pop language and may redesign an ordinary pose and outfit into an original theatrical action look when permitted. The revised route enforces measurable bright, clean, and proportionate gates: light and mid-light values dominate, black acts only as contour and local backing, texture stays local, and a full-body adult defaults to about `1:7–1:8` head-to-body proportions.
+- **Cinematic 2D landscape:** focuses on place and environment. It preserves the existing direction: viewpoint, weather, landmarks, and spatial relationships with saturated multicolor, layered light, and one emotional focus, independent of the poster route's palette and collage density.
 
-A user-specified aspect ratio takes priority. Otherwise choose subject-poster ratio by composition: prefer `16:9` for lateral action, full-body pursuit, groups, or a wide decorative stage, and `4:5` for a single close-up, upward motion, or fashion-like entrance. Landscapes preserve source orientation and approximate ratio, using `16:9` when a new horizontal cinematic crop is needed.
+For a subject-plus-place photo, choose one primary capability. Use the masked-action poster when identity and action matter most; use the cinematic landscape when travel location, architecture, or environment matters most. Without an explicit priority, route by the photo's primary narrative focus instead of creating a third hybrid style.
+
+Honor a user-specified aspect ratio. Otherwise prefer `16:9` for lateral action, full-body movement, groups, or a wide graphic stage, and `4:5` for a single close-up, vertical motion, or fashion-like entrance. Landscapes retain source orientation and approximate ratio, using `16:9` for a new cinematic horizontal crop.
+
+### Revised masked-action quality gates
+
+- Light and mid-light regions occupy about `50%–70%`; deepest black stays around `15%–30%`; the face remains bright and readable.
+- Halftone, grain, paper texture, and scratches stay below about `20%` total coverage and avoid faces, hands, and major color fields. Global grime, gray haze, cracked-glass webs, and random splashes are prohibited.
+- A full-body adult stays around `1:7–1:8`; the head occupies about `12%–15%` of total height. Do not shorten the torso, enlarge the head, or create impact through distorted foreground limbs.
+- Costume design favors clean alternating light and dark panels, avoiding all-black leather, dense harnesses, tactical armor, and excessive metal that create a muddy dark result.
+- Skin preserves the source value, undertone, and ethnic identity. Never fill a face red, drain it gray, or lighten it toward white.
 
 ### Inspiration and boundary
 
-Landscapes borrow only broad qualities often found in animated films and game cutscenes: saturated color, cinematic light, spatial layering, and an emotional focus. Subject posters borrow only rebellious pop-art methods such as collage, tearing, and high-contrast composition. The Skill never recreates a game screenshot, character, proprietary interface, text, logo, camera crop, composition, or a particular work's visual signature.
+Landscapes borrow only broad qualities common to animated films and game cutscenes: saturated color, cinematic light, spatial layering, and an emotional focus. Subject posters borrow only high-level methods from rebellious 2D pop posters, such as asymmetric division, value collision, graphic rhythm, and local collage. The Skill never reproduces a game screenshot, character, costume, mask, proprietary UI, text, logo, camera crop, composition, or a particular work's visual signature.
 
-### Acknowledgment and non-affiliation
-
-The high-contrast graphic language of the subject posters draws high-level design inspiration from the art direction of Atlus's *Persona 5*. This reference excludes game screenshots, characters, UI, text, logos, compositions, and other protected material. This is an unofficial original project and is not affiliated with, sponsored by, endorsed by, or otherwise connected to Atlus or its affiliated companies.
+The subject-poster direction acknowledges abstract high-level inspiration from the art direction of Atlus's *Persona 5*, but includes no game assets. This is an unofficial original project and is not affiliated with, sponsored by, endorsed by, or otherwise connected to Atlus or its affiliated companies.
 
 ### Usage
 
@@ -101,14 +113,15 @@ Upload a photo in Codex, then ask:
 Use $photo-personalike-poster to transform this photo.
 ```
 
-Without an attached photo, the Skill asks for one instead of inventing an identity-bearing subject. Final images are saved to `images/photo-personalike-poster/` in the current project, keeping only the latest formal version.
+Without an attached photo, the Skill asks for one. Final images are saved to `images/photo-personalike-poster/` in the current project, keeping only the latest formal version.
 
-### Example image sources
+### Example sources and status
 
 - Original landscape photos were taken by the repository author.
-- Portrait source images were generated with OpenAI Image 2.
+- The current gallery retains only five landscape source/result pairs that passed review.
+- The previous three portrait results were removed from formal examples because of insufficient brightness, globally distressed texture, and unstable anatomy. Their source images remain available locally and will return only after being remade under the new bright, clean, and proportionate gates and approved by the user.
 
-Examples demonstrate only the degree of 2D stylization, color logic, subject hierarchy, and shadows. Do not copy their people, places, clothing, poses, props, text, or exact compositions. The three subject examples demonstrate `16:9` widescreen action redesign, original masked-action costumes, natural animated skin tones, and layered decoration, but they are not fixed templates. The gallery uses lightweight previews; click an image to open its full example.
+Examples demonstrate only boundaries for 2D stylization, color, spatial hierarchy, light, and composition. Never copy a depicted person, place, clothing, pose, prop, text, or exact composition.
 
 ### Contents
 
@@ -117,6 +130,10 @@ photo-personalike-poster/
 ├── SKILL.md
 ├── agents/openai.yaml
 ├── references/
+│   ├── masked-action-poster.zh-CN.md
+│   ├── masked-action-poster.en.md
+│   ├── cinematic-landscape.zh-CN.md
+│   └── cinematic-landscape.en.md
 ├── assets/examples/
 ├── assets/readme/
 ├── README.md

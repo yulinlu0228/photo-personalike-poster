@@ -1,4 +1,4 @@
 interface:
   display_name: "Photo Personalike Poster"
-  short_description: "Create high-energy subjects or cinematic illustrated scenes."
-  default_prompt: "Use $photo-personalike-poster to transform this uploaded person, pet, object, mixed scene, or landscape photo into the matching original 2D illustrated mode."
+  short_description: "Create bright masked-action posters or cinematic landscapes."
+  default_prompt: "Use $photo-personalike-poster to transform this uploaded photo with the matching bright masked-action poster or cinematic landscape route."
