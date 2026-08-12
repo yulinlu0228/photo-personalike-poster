@@ -25,10 +25,10 @@ For **one uploaded photo**:
 For **multiple uploaded photos**:
 
 - If all images are clearly the same type, generate one result per input automatically: poster mode for all subject-led images or landscape mode for all place-led images.
-- If the set mixes subject-led and landscape images, pause before generation and ask whether to: “1）把这些图片共同作为一张成图的参考；2）每张图片分别生成一张。”
-- If the user chooses one composite, ask in the same clarification whether the final image should use masked-action poster mode or Persona-5-CG-inspired landscape mode, and identify which images are identity references and which are environment references. Do not mechanically include every person, object, or place detail.
-- If the user chooses separate outputs, automatically route each unambiguous input. For any individual photo that still contains both an important subject and place, ask whether that photo should use poster mode, landscape mode, or both. Do not ask again for images whose route is clear.
-- Do not silently treat multiple views of the same person as separate identities, combine unrelated people or places, split a group photo, or merge inputs into one image without permission.
+- If the set mixes subject-led, place-led, or mixed-focus images, read the matching [Chinese multi-image routing reference](references/multi-image-routing.zh-CN.md) or [English multi-image routing reference](references/multi-image-routing.en.md). Ask one consolidated clarification covering only material unknowns: identity grouping, separate versus shared-reference outputs, output count, route per output, reference roles, and intended subject count.
+- First offer the fully separate default with its resolved output list. If the user chooses it, identity relationships across different outputs are optional and must not block generation.
+- For shared-reference or custom outputs, never guess whether uncertain people are the same identity. Resolve every output into a generation manifest before drawing. Do not ask again when the user's request already resolves all material fields.
+- Do not silently treat multiple views of the same person as separate identities, fuse different identities, combine unrelated places, split a group photo, or merge inputs into one image without permission.
 
 “Persona-5-CG-inspired” is user-facing shorthand only. In prompts, use original saturated multicolor, cinematic lighting, layered space, and animated-cutscene atmosphere; never request a direct copy of a game screenshot, protected character, UI, or exact composition.
 
@@ -53,7 +53,7 @@ Do not imitate a named game, character, artist, poster, UI, or screenshot. Do no
 
 Save final images to the current project's `images/photo-personalike-poster/` directory with short descriptive English filenames. Keep only the latest approved formal result for each source or composite.
 
-After delivery, enumerate every output in source order and state its route, for example: “第 1 张：怪盗海报模式；第 2 张：Persona 5 CG 气质的风景图片模式。” When one source produces both modes, label both results separately as `第 X 张-A` and `第 X 张-B`. When multiple sources produce one composite, say which source images were used as identity and environment references and name the chosen route.
+After delivery, enumerate every output in source or manifest order and state its route, for example: “第 1 张：怪盗海报模式；第 2 张：Persona 5 CG 气质的风景图片模式。” When one source produces both modes, label both results separately as `第 X 张-A` and `第 X 张-B`. For every shared-reference output, name its identity/subject references, environment references, and intended subject count.
 
 ## Examples
 

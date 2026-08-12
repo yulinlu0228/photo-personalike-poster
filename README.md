@@ -18,8 +18,9 @@
 - 单张明确风景照自动使用 **Persona 5 CG 气质的原创风景模式**；单张明确人物或主体照自动使用 **怪盗海报模式**。
 - 单张照片同时以人物和地点为重点时，生成前询问用户选择怪盗海报、Persona 5 CG 气质风景，或两种模式各生成一张。
 - 多张图片全部为同一明显类型时，每张输入自动生成一张对应模式的结果。
-- 多张图片混合人物与风景时，先询问是把多图共同作为一张成图的参考，还是每张分别生成。共同生成时还需明确最终模式，以及哪些图片承担身份参考、哪些承担环境参考；分别生成时只继续询问仍然存在人物/地点双重焦点的单张图片。
-- 不擅自合并多图、拆分合照或把同一人的不同角度当成不同人物。交付时按照输入顺序标注每张结果使用的模式。
+- 多张图片混合人物、风景或双重焦点时，进行一次结构化确认：先给出“每张分别生成”的默认清单；若要共同或自定义生成，再一次确认人物身份分组、输出数量、每张模式、人物/环境参考图号及最终人物数量。
+- 当多张人物图共同服务于一张输出、但无法确认是否同一人时，明确询问；若选择每张分别生成且身份关系不影响结果，则不强制回答。
+- 确认后为每张输出建立清单并直接生成，不重复询问。不得融合不同人物、按照片数量复制同一人、擅自合并地点或拆分合照。交付时逐张标注模式、人物参考、环境参考和最终主体数量。
 
 这里的“Persona 5 CG 气质”是便于用户选择模式的简称；实际提示词只使用原创的高饱和多色、电影化光线、空间分层与动画过场氛围，不复刻游戏截图、角色、UI 或具体构图。
 
@@ -83,7 +84,9 @@ photo-personalike-poster/
 │   ├── masked-action-poster.zh-CN.md
 │   ├── masked-action-poster.en.md
 │   ├── cinematic-landscape.zh-CN.md
-│   └── cinematic-landscape.en.md
+│   ├── cinematic-landscape.en.md
+│   ├── multi-image-routing.zh-CN.md
+│   └── multi-image-routing.en.md
 ├── assets/
 │   ├── examples/
 │   └── readme/
@@ -110,8 +113,9 @@ For a subject-plus-place photo, choose one primary capability. Use the masked-ac
 - Automatically use the **original Persona-5-CG-inspired landscape mode** for one clearly scenic photo and **masked-action poster mode** for one clearly subject-led photo.
 - When one photo gives equal importance to a subject and a recognizable place, ask before generation whether to create a masked-action poster, a Persona-5-CG-inspired landscape, or one result in each mode.
 - When multiple photos are all one clear type, generate one corresponding result per input automatically.
-- When multiple photos mix subjects and landscapes, ask whether to use them jointly for one composite or generate one result per input. For a composite, also identify the final mode and which inputs serve identity versus environment. For separate outputs, clarify only the individual photos that still have equal subject/place focus.
-- Never merge inputs, split a group photo, or treat multiple views of one person as different identities without permission. Label every delivered result by input order and mode.
+- When multiple photos mix subjects, landscapes, or dual-focus inputs, ask once in a structured format. First show the separate-output default; for shared or custom outputs, resolve identity grouping, output count, route per output, subject/environment reference numbers, and final subject count.
+- When uncertain portraits jointly feed one output, ask whether they show one person or different people. Do not require that answer when separate treatment makes it irrelevant.
+- Build a manifest and generate without repeated confirmation. Never fuse different people, duplicate one person according to photo count, combine places without permission, or split a group photo. Label each result with route, subject references, environment references, and final subject count.
 
 “Persona-5-CG-inspired” is user-facing shorthand. Production prompts use only original saturated multicolor, cinematic light, layered space, and animated-cutscene atmosphere, never a copied screenshot, character, UI, or exact composition.
 
@@ -162,7 +166,9 @@ photo-personalike-poster/
 │   ├── masked-action-poster.zh-CN.md
 │   ├── masked-action-poster.en.md
 │   ├── cinematic-landscape.zh-CN.md
-│   └── cinematic-landscape.en.md
+│   ├── cinematic-landscape.en.md
+│   ├── multi-image-routing.zh-CN.md
+│   └── multi-image-routing.en.md
 ├── assets/examples/
 ├── assets/readme/
 ├── README.md
